@@ -20,7 +20,7 @@ function initDB() {
       school      TEXT DEFAULT '',
       experience  INTEGER DEFAULT 0,
       bio         TEXT DEFAULT '',
-      role        TEXT DEFAULT 'O\'qituvchi',
+      role        TEXT DEFAULT 'Teacher',
       created_at  TEXT DEFAULT (datetime('now'))
     );
 
